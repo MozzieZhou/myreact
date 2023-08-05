@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from 'react-dom'
-import App from "./01-base/02-functionComponent"
+import App from "./01-base/03-nestedComponent"
 
 
 // react 自动加工DOM
