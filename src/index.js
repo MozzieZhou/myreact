@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from 'react-dom'
-import App from "./01-base/04-styleComponent"
+import App from "./01-base/05-bindComponent-01"
 
 
 // react 自动加工DOM
