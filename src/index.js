@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from 'react-dom'
-import App from "./01-base/08-state"
+import App from "./01-base/09-circulationRender"
 
 
 // react 自动加工DOM
