@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './css/01-index.css'
 
 export default class App extends Component {
 
@@ -26,8 +27,11 @@ export default class App extends Component {
                 <ul>
                     {
                         this.state.list.map((item, index) =>
-                            <li key={item.id}>
-                                {item.mytext}
+                            <li key={item.id} >
+                                <span dangerouslySetInnerHTML={{
+                                    __html:item.mytext
+                                }}>
+                                </span>
                                 <button onClick={() => {
                                     this.handleDelClick(item)
                                 }}>删除</button>
@@ -36,13 +40,27 @@ export default class App extends Component {
                     }
                 </ul>
 
+                {/* {this.state.list.length === 0 && <div>暂无待办事项</div>} */}
+                {this.which()}
+
+                {/* <div className={this.state.list.length === 0 ? '' : 'hidden'}>暂无收藏内容</div> */}
+
             </div>
         )
     }
 
+    which() {
+        switch (this.state.list.length) {
+            case 0:
+                return <div>暂无待办事项</div>
+            default:
+                return <div></div>
+        }
+    }
+
     handleAddClick() {
         console.log(this.mytext.current.value)
-        if(this.mytext.current.value == ''){
+        if (this.mytext.current.value == '') {
             alert('请不要输入空内容')
             return
         }
