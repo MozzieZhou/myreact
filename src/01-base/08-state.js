@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 
-export default class App
-    extends Component {
-
+export default class App extends Component {
     state = {
         text: "收藏",
         like: true
