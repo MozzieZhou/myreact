@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from 'react-dom'
-import App from "./01-base/12-soldSeats"
+import App from "./01-base/15-betterScroll-cinema"
 
 
 // react 自动加工DOM
