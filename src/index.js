@@ -8,7 +8,6 @@ import App from "./01-base/18-stateVSprops"
 //     React.createElement("h2",{className:'aaaa'},"欢迎来到React世界"),
 //     document.getElementById('root'))
 
-
 // ReactDOM.render(<h1>1111111111111</h1>,document.getElementById('root'))
 
 ReactDOM.render(<App/>, document.getElementById('root'))
