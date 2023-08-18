@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from 'react-dom'
-import App from "./02-advanced/01-child2father"
+import App from "./02-advanced/04-father2kidConnection"
 
 
 // react 自动加工DOM
