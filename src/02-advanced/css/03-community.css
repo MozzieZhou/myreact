@@ -1,0 +1,19 @@
+.filmItem img{
+    width: 100px;
+    float: left;
+}
+
+.filmItem{
+    overflow: hidden;
+    padding: 10px;
+}
+
+.filmDetail{
+    background-color: yellow;
+    width: 200px;
+    height: 500px;
+    position: fixed;
+    float: right;
+    right: 0px;
+    top: 100px;
+}
