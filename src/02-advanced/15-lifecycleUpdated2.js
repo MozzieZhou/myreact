@@ -29,7 +29,11 @@ export default class App extends Component {
         console.log(nextProps,nextState)
 
         // 设置先决条件，来判断本次update是否执行
-        if(nextState.myname === this.state.myname){
+        // if(nextState.myname === this.state.myname){
+        //     return false
+        // }
+
+        if(JSON.stringify(nextState) === JSON.stringify(this.state)){
             return false
         }
 
