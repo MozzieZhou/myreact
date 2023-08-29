@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from 'react-dom'
-import App from "./02-advanced/09-context"
+import App from "./02-advanced/15-lifecycleUpdated2"
 
 
 // react 自动加工DOM
